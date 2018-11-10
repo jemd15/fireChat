@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+.no-padding{
+    padding: 0 !important;
+}
+.no-margin{
+    margin: 0 !important;
+}
+.fixed{
+    position: fixed;
+}
+.fixed-bottom{
+    position: fixed;
+    bottom: 0;
+}
+body{
+    background-image: url('assets/img/retro-pattern2.1.png');
+    background-color: antiquewhite;
+    background-size: 30%;
+    background-attachment: fixed;
+}
